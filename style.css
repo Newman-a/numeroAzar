@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+h1{
+    background-color: black;
+    color: #fff;
+}
+
+h2{
+    margin-top: 5%;
+    font-family: arial;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#numero {
+    outline: none;
+    border: none;
+    height: 25px;
+}
+
+.comprobar {
+    background-color: aqua;
+    border: none;
+    color:#fff;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.comprobar:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.victoria{
+    color: forestgreen;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.derrota{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
